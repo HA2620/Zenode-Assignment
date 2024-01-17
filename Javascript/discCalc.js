@@ -4,6 +4,10 @@ import { flat_10_discount } from "./func.js";
 import { bulk_10_discount } from "./func.js";
 import { tier_50_discount } from "./func.js";
 
+import promptSync from 'prompt-sync';
+
+const prompt = promptSync();
+
 // Taking user Input
 while (true) {
   var prod_A_quant = parseInt(prompt("How many quantaties of Product A do you want ? : "), 10);
@@ -70,7 +74,7 @@ if (totalQuant > 30 && (prod_A_quant > 15 || prod_B_quant > 15 || prod_C_quant >
 
 var amountToShow = Math.min(priceAfterFlat_10, priceAfterBulk_5, priceAfterBulk_10, priceAfterTier_50);
 
-discName="";
+var discName="";
 
 if(amountToShow === cartTotal)
     discName="No Eligible discount"
@@ -83,7 +87,7 @@ else if(amountToShow === priceAfterBulk_5)
 else
     discName="tiered_50_discount"
 
-shippingFees = Math.ceil(totalQuant/10) * 5
+var shippingFees = Math.ceil(totalQuant/10) * 5
 
 console.log("\n--------------------------------------------------")
 console.log("--------------------------------------")
@@ -103,10 +107,10 @@ console.log("Shipping Fees   : $",shippingFees)
 amountToShow = amountToShow + shippingFees
 
 if(isWrap !== 0)
-    console.log("Wrapping Fees    : $",totalQuant)
+    console.log("Wrapping Fees   : $",totalQuant)
     amountToShow= amountToShow + totalQuant
 
-console.log("Total Amount  : $",amountToShow)
+console.log("Total Amount    : $",amountToShow)
 console.log("-------------------------------------------------------")
 
-// console.log(amountToShow);
+
