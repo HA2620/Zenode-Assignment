@@ -1,0 +1,30 @@
+Q1) Why do you like to join as a Software developer?
+
+  - I want to join as software developer because I like building products by writing lines of code and also because of my love for problem solving. One more reason is because one never stop learning in this field   
+    and this field rewards person with skills. Also I've worked hard to acquire skills required in this domain to be the best possible version of me.
+
+Q2) List top 3 softwares / tools that inspire you. Why do these tools inspire you?
+
+  - 1. HTML/ CSS/ JS - How lines of code gets converted into a proper functioning website is just amazing.
+    2. ChatGPT or AI tools and Operating Systems - The way AI'scand OS's are making peoples life easy is commendable.
+    3. Github - It is an extremely useful software and very helpful for developers
+    4. Also I like some tools like  VSCode, Adobe Photoshop.
+
+Q3) List top 3 organisations you like to join in your career & why you like these organisations.
+
+  - I dont have any specific organisation in my mind but would like to join organizations where I can solve problem of large amount of peoples and where I can develop my skills and get fairly compensated.
+
+Q4) How you position yourself in this industry after 2 years.
+
+  - I position myself as more knowledgeable, skilled, enhanced and polished version of what I am today.In the next 2 years I want to get better at software developement and I hope the 2 year of experience I will        have will teach me alot about relevent skills.
+
+Q5) List 3 projects / products you have built or have planned to build in the upcoming year, also explain your role in the same.
+
+  - 1. Urban Clothing - E Commerce Clothing Website - I made this webapp from scratch and this website has all the features as any modern e-commerce website would have such as User authentication, verification             mail, cart functionality, seamless transaction, admin to manage product , user and delivery. Enabled CRUD functionality on both products as well as user. Video link - 
+
+    2. Toll Calculator - A webapp which calculates toll from origin to destination upon entering origin and destination. It display all the toll in the routes with toll name, price, road and state.
+
+    3. Air Scanner [ Planning to make ] - I want to make a website similar to as of SkyScanner but even better which will use web scrapping and shows the real time flight cost after applying all the relevent             discounts and same with hotels prices from all the websites across region.
+
+    The above two website I have made solely from scratch. Tech Stack used were - NodeJS, ExpressJS, MongoDB, HTML/CSS/JS, Bootstrap.
+
